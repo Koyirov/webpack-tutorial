@@ -1,8 +1,8 @@
 import Heading from "./heading/heading";
 import KiwiImage from "./kiwi-image/kiwi-image";
-import _ from 'lodash';
+import React from 'react';
 
 const heading = new Heading();
-heading.render(_.upperFirst('kiwi'));
+heading.render('Kiwi');
 const kiwiImage = new KiwiImage();
 kiwiImage.render();
